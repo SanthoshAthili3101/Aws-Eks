@@ -1,0 +1,103 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.code-workspace
+
+# Git/SSH
+*.pub
+*.pem
+*.key
+*.p12
+
+# Node/JS (tools for Jenkins or pipelines)
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.log
+*.vs/
+_ReSharper*/
+*.ncrunch*
+*.ndproj
+*.sln.iml
+TestResult*/
+*.coverage
+*.coveragexml
+
+# ASP.NET artifacts
+wwwroot/dist/
+appsettings.*.local.json
+secrets.json
+
+# Docker build context noise
+docker-compose*.yml
+.env
+.env.*
+.aws/
+.ssh/
+
+# Terraform
+**/.terraform/*
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# local plans
+*.tfplan
+tfplan
+# CLI config
+.terraformrc
+terraform.rc
+
+# Kubernetes / Helm
+helm/**/charts/
+helm/**/Chart.lock
+helm/**/tmp/
+helm/**/.helmignore
+# Rendered output or local manifests
+k8s/generated/
+*.kubeconfig
+
+# Jenkins
+.jenkins/
+workspace/
+*.zip
+*.tar
+*.tar.gz
+
+# Test/coverage
+coverage/
+*.trx
+TestResults/
+
+# Artifacts
+dist/
+build/
+out/
+publish/
+
+obj/
+bin/
+
+# Logs
+logs/
+*.log

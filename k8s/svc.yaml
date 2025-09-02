@@ -1,0 +1,14 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: dotnet-api
+  labels:
+    app: dotnet-api
+spec:
+  type: ClusterIP
+  selector:
+    app: dotnet-api
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8080
